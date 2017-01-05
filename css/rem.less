@@ -1,0 +1,139 @@
+@r:40rem;
+a,
+input,
+button {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+input,
+button {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+body {
+  margin: 0;
+  -webkit-user-select: none;
+}
+body * {
+  -webkit-user-select: none;
+  font-family: Helvetica;
+}
+body {
+  -webkit-text-size-adjust: 100%;
+   font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+ul,h3,p{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+
+#head{
+    height: 151/@r;
+    background: red;
+    color: white;
+    text-align: center;
+    line-height: 151/@r;
+    font-size: 50/@r;
+    position: relative;
+    a{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 151/@r;
+        height: 151/@r;
+        font-size: 70/@r;
+        color: white;
+    }
+}
+#two_con{
+    height: 117/@r;
+    border-bottom: 1/@r solid  #dedede;
+    li{
+        float: left;
+        height: 117/@r;
+        width: 216/@r;
+        text-align: center;
+        line-height: 117/@r;
+    }
+    .two_con_one{
+        background: #f0f0f0;
+    }
+}
+#content{
+    width: 100%;
+    height: 100%;
+    .content_list{
+        float: left;
+        width: 216/@r;
+        li{
+            height: 117/@r;
+            text-align: center;
+            line-height: 117/@r;
+            background: #F0F0F0;
+            border-bottom: 1/@r dotted black;
+        }
+    }
+    .content_con{
+        float: right;
+        width: 864/@r;
+        li{
+            height: 296/@r;
+            border-bottom: 3/@r solid #f0f0f0;
+            .left{
+                float: left;
+                width: 312/@r;
+                height: 296/@r;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .right{
+                width: 552/@r;
+                float: right;
+                h3{
+                    line-height: 109/@r;
+                   text-overflow : ellipsis; 
+                   white-space : nowrap; 
+                   overflow : hidden; 
+                }
+                .right_textbox{
+                    padding-top:23/@r ;
+                    height: 164/@r;
+                    position: relative;
+                    .top{
+                        span{
+                            color: red;
+                        }
+                    }
+                    i{
+                        display: block;
+                        width: 398/@r;
+                        height: 16/@r;
+                        background: #da1f3e;
+                        border-radius:5/@r ;
+                        margin: 13/@r 0;
+                    }
+                    .down{
+                        span{
+                            color: blue;
+                        }
+                    }
+                    .rig_box_pic{
+                        width: 106/@r;
+                        height: 106@r;
+                        position: absolute;
+                        right: 24/@r;
+                        top: 0;
+                    }
+                }
+            }
+        }
+        
+    }
+}
